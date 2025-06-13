@@ -1,0 +1,7 @@
+version: "3"
+services:
+  gia-vang:
+    build: .
+    container_name: gia-vang-auto
+    volumes:
+      - ./data:/app
